@@ -1,0 +1,8 @@
+FROM composer:latest
+MAINTAINER Andre Marcelo-Tanner <andre@enthropia.com>
+
+# Install specific packages
+RUN docker-php-ext-install bz2
+
+# Disable apt-get
+#RUN rm -rf /var/lib/apt/lists/*
