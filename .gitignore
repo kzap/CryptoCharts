@@ -1,0 +1,24 @@
+composer.phar
+/vendor/
+/bin/
+public/upload
+public/bower_components
+config/services.php
+config/settings.php
+config/test.php
+config/deploy.php
+config/version.php
+app/admin/tests/_output/*
+app/admin/tests/_data/*
+app/admin/tests/_envs/*
+app/api/tests/_output/*
+app/api/tests/_data/*
+app/api/tests/_envs/*
+app/www/tests/_output/*
+app/www/tests/_data/*
+app/www/tests/_envs/*
+
+
+# Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
+# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
+# composer.lock
